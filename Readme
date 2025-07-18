@@ -1,0 +1,6 @@
+Nous: mini libreria di machine learning che puo essere utilizzata per allenare e salvare reti neuronali artificiali. Supporta reti Dense, Convolutional e MaxPooling.
+Nella cartella cppFiles e hppFiles si trovano i file della libreria.
+I file CreateModel.cpp e UseModel.cpp mostrano rispettivamente come utilizzare la libreria per creare, salvare e utilizzare una rete neuronale allenata con la libreria. In particolare, nel file UseModel.cpp viene utilizzata la rete neuronale salvata nel file saved.txt per consentire all utente di disegnare dei numeri a schermo e convertirli in numeri digitali (interpretazione delle cifre da 0 a 9).
+Per il test, usare:
+- make 
+- ./UseModel
