@@ -31,8 +31,8 @@
 
 | File / Cartella     | Descrizione                                                    |
 |---------------------|----------------------------------------------------------------|
-| `src/`              | Codice sorgente della libreria                                 |
-| `examples/`         | Esempi di utilizzo della libreria                              |
+| `cppFiles/`         | Codice sorgente della libreria (file cpp)                      |
+| `hppFiles/`         | Codice sorgente della libreria (headers)                       |
 | `CreateModel.cpp`   | Crea, allena e salva un modello                                |
 | `UseModel.cpp`      | Carica e utilizza un modello salvato per fare inferenza        |
 | `Makefile`          | Script di compilazione                                         |
@@ -53,7 +53,7 @@
     make
     ```
 
-3. **Esegui gli esempi**:
+3. **Esegui**:
     - Addestra e salva un modello:
         ```bash
         ./CreateModel
