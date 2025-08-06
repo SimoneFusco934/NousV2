@@ -91,4 +91,24 @@ m.setUp();
 m.train();
 	
 m.test();
+```
+
+---
+
+## 🧩 Funzionalità in sviluppo
+
+Questa sezione elenca le funzionalità **attualmente in fase di sviluppo** o in programma per versioni future. È pensata per mostrare la direzione di crescita del progetto.
+
+| Funzionalità                        | Descrizione breve                                                    | Stato         |
+|-------------------------------------|----------------------------------------------------------------------|---------------|
+| Layer Dropout                       | Prevenzione dell'overfitting durante l'allenamento                   | 🛠️ In corso   |
+| Supporto GPU (CUDA)                 | Sperimentazione con accelerazione hardware                           | 🔜 In arrivo  |
+| Ottimizzatore Adam                  | Algoritmo di ottimizzazione avanzato                                 | 🔜 In arrivo  |
+| Algoritmi di Reinforcement Learning | Esecuzione dei modelli e training da terminale                       | 🔜 In arrivo  |
+
+---
+
+
+
+
 
